@@ -172,6 +172,7 @@
             :value="avgOrderValue"
             icon="Money"
             color="amber"
+            :trend="1.5"
             prefix="¥"
           />
         </el-col>
@@ -181,6 +182,7 @@
             :value="avgDailyOrders"
             icon="ShoppingCart"
             color="rose"
+              :trend="-1.5"
           />
         </el-col>
       </el-row>
