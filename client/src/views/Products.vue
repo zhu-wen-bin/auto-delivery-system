@@ -104,8 +104,7 @@
         <el-table-column label="操作" width="200" align="center" fixed="right">
           <template #default="{ row }">
             <el-button
-              style="background-color: #fff;"
-              type="primary"
+              type="default"
               link
               size="small"
               @click="handleCopyLink(row)"
@@ -114,7 +113,7 @@
               复制链接
             </el-button>
             <el-button
-              type="primary"
+              type="default"
               link
               size="small"
               @click="handleEdit(row)"
